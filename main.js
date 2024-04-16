@@ -5,11 +5,11 @@ function verificarTime() {
 
   while (continuarPerguntando) {
     
-    var respostaTime = prompt("Qual o melhor time?");
+    var respostaTime = prompt("Qual foi o ultimo titulo da ferrari na F1??");
 
     
-    if (respostaTime.toLowerCase() === "Corinthians") {
-      alert("Isso mesmo! O Corinthians é o melhor time!");
+    if (respostaTime.toLowerCase() === "2008") {
+      alert("Isso mesmo! O umtimo titulo foi em 2008!");
       continuarPerguntando = false; // Sai do loop após a resposta correta
     } else {
       alert("Não é isso! Tente novamente.");
